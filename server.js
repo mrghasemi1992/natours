@@ -7,12 +7,7 @@ const app = require('./app');
 
 dotenv.config({ path: './config.env' });
 
-const DB = process.env.DATABASE.replace(
-  '<password>',
-  process.env.DATABASE_PASSWORD
-);
-
-mongoose.connect(DB).then(() => {
+mongoose.connect(process.env.DATABASE).then(() => {
   console.log('DB connection successful!');
 });
 
