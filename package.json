@@ -4,7 +4,8 @@
   "description": "Learning Node.js, Express & MongoDB",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "debug": "ndb server.js"
   },
   "author": "Mohammad Reza Ghasemi",
   "license": "ISC",
