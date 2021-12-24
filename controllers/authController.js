@@ -108,3 +108,9 @@ exports.restrictTo =
 
     next();
   };
+
+exports.forgotPassword = (req, res, next) => {
+  // 1) Get user based on posted email
+};
+
+exports.resetPassword = (req, res, next) => {};
