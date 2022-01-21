@@ -16,6 +16,10 @@ router
   .patch(authController.protect, authController.updatePassword);
 
 router
+  .route('/update-me')
+  .patch(authController.protect, userController.updateMe);
+
+router
   .route('/')
   .get(authController.protect, userController.getAllUsers)
   .post(userController.createUser);
