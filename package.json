@@ -4,8 +4,8 @@
   "description": "Learning Node.js, Express & MongoDB",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "start:prod": "NODE_ENV=production nodemon server.js",
+    "start": "nodem server.js",
+    "dev": "nodemon server.js",
     "debug": "ndb server.js"
   },
   "author": "Mohammad Reza Ghasemi",
