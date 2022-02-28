@@ -6,4 +6,4 @@ This is a MERN (MongoDB, Express, React & TypeScript) stack project.
 3. `npm run start` or `npm start` to start the project.
 4. Server will be running on `127.0.0.1:3000`.
 
-> Your Node.js version should be >= 10.
+> I'm using Node.js 16.xx.
