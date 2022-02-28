@@ -1,4 +1,4 @@
-This is a MERN stack project.
+This is a MERN (MongoDB, Express, React & TypeScript) stack project.
 
 # How to run?
 1. `npm i`
