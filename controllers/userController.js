@@ -32,7 +32,6 @@ exports.createUser = (req, res) => {
 
 // Don't update password with this!
 exports.updateUser = factory.updateOne(User);
-
 exports.deleteUser = factory.deleteOne(User);
 
 exports.updateMe = catchAsync(async (req, res, next) => {
